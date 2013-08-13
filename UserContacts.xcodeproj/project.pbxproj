@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50BA2465A00748B1AB9ED755 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534A83B1A4943ECBA3451DD /* libPods.a */; };
+		AD29448A17590C9E00953BBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD29448917590C9E00953BBF /* UIKit.framework */; };
+		AD29448C17590C9E00953BBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD29448B17590C9E00953BBF /* Foundation.framework */; };
+		AD29448E17590C9E00953BBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD29448D17590C9E00953BBF /* CoreGraphics.framework */; };
+		AD29449017590C9E00953BBF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD29448F17590C9E00953BBF /* CoreData.framework */; };
+		AD29449617590C9E00953BBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD29449417590C9E00953BBF /* InfoPlist.strings */; };
+		AD29449817590C9E00953BBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29449717590C9E00953BBF /* main.m */; };
+		AD29449C17590C9F00953BBF /* UCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29449B17590C9F00953BBF /* UCAppDelegate.m */; };
+		AD29449E17590C9F00953BBF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD29449D17590C9F00953BBF /* Default.png */; };
+		AD2944A017590C9F00953BBF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD29449F17590C9F00953BBF /* Default@2x.png */; };
+		AD2944A217590C9F00953BBF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2944A117590C9F00953BBF /* Default-568h@2x.png */; };
+		AD2944A517590C9F00953BBF /* UserContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD2944A317590C9F00953BBF /* UserContacts.xcdatamodeld */; };
+		AD2944B117590DB100953BBF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2944B017590DB100953BBF /* MainStoryboard.storyboard */; };
+		AD2944B417590EDB00953BBF /* UCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2944B317590EDB00953BBF /* UCHomeViewController.m */; };
+		AD2944B61759107900953BBF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2944B51759107900953BBF /* AddressBook.framework */; };
+		AD2944B917593F7800953BBF /* UCContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2944B817593F7800953BBF /* UCContactListViewController.m */; };
+		AD2944BC1759410F00953BBF /* UCContactListTableViewContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2944BB1759410F00953BBF /* UCContactListTableViewContactCell.m */; };
+		AD2944BE1759431000953BBF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2944BD1759431000953BBF /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D5D2F3FF8074A278D4A924A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		4534A83B1A4943ECBA3451DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD29448617590C9E00953BBF /* UserContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD29448917590C9E00953BBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD29448B17590C9E00953BBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD29448D17590C9E00953BBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD29448F17590C9E00953BBF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD29449317590C9E00953BBF /* UserContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserContacts-Info.plist"; sourceTree = "<group>"; };
+		AD29449517590C9E00953BBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD29449717590C9E00953BBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD29449917590C9E00953BBF /* UserContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserContacts-Prefix.pch"; sourceTree = "<group>"; };
+		AD29449A17590C9F00953BBF /* UCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCAppDelegate.h; sourceTree = "<group>"; };
+		AD29449B17590C9F00953BBF /* UCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegate.m; sourceTree = "<group>"; };
+		AD29449D17590C9F00953BBF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD29449F17590C9F00953BBF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD2944A117590C9F00953BBF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD2944A417590C9F00953BBF /* UserContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserContacts.xcdatamodel; sourceTree = "<group>"; };
+		AD2944B017590DB100953BBF /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AD2944B217590EDB00953BBF /* UCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCHomeViewController.h; sourceTree = "<group>"; };
+		AD2944B317590EDB00953BBF /* UCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCHomeViewController.m; sourceTree = "<group>"; };
+		AD2944B51759107900953BBF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		AD2944B717593F7800953BBF /* UCContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCContactListViewController.h; sourceTree = "<group>"; };
+		AD2944B817593F7800953BBF /* UCContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCContactListViewController.m; sourceTree = "<group>"; };
+		AD2944BA1759410F00953BBF /* UCContactListTableViewContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCContactListTableViewContactCell.h; sourceTree = "<group>"; };
+		AD2944BB1759410F00953BBF /* UCContactListTableViewContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCContactListTableViewContactCell.m; sourceTree = "<group>"; };
+		AD2944BD1759431000953BBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD29448317590C9E00953BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2944BE1759431000953BBF /* QuartzCore.framework in Frameworks */,
+				AD2944B61759107900953BBF /* AddressBook.framework in Frameworks */,
+				AD29448A17590C9E00953BBF /* UIKit.framework in Frameworks */,
+				AD29448C17590C9E00953BBF /* Foundation.framework in Frameworks */,
+				AD29448E17590C9E00953BBF /* CoreGraphics.framework in Frameworks */,
+				AD29449017590C9E00953BBF /* CoreData.framework in Frameworks */,
+				50BA2465A00748B1AB9ED755 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD29447D17590C9E00953BBF = {
+			isa = PBXGroup;
+			children = (
+				AD2944AC17590CD600953BBF /* Resources */,
+				AD29449117590C9E00953BBF /* UserContacts */,
+				AD29448817590C9E00953BBF /* Frameworks */,
+				AD29448717590C9E00953BBF /* Products */,
+				2D5D2F3FF8074A278D4A924A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AD29448717590C9E00953BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD29448617590C9E00953BBF /* UserContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD29448817590C9E00953BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD2944BD1759431000953BBF /* QuartzCore.framework */,
+				AD2944B51759107900953BBF /* AddressBook.framework */,
+				AD29448917590C9E00953BBF /* UIKit.framework */,
+				AD29448B17590C9E00953BBF /* Foundation.framework */,
+				AD29448D17590C9E00953BBF /* CoreGraphics.framework */,
+				AD29448F17590C9E00953BBF /* CoreData.framework */,
+				4534A83B1A4943ECBA3451DD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD29449117590C9E00953BBF /* UserContacts */ = {
+			isa = PBXGroup;
+			children = (
+				AD2944AF17590D5800953BBF /* AppDelegate */,
+				AD2944AE17590D4900953BBF /* Views */,
+				AD2944AB17590CA500953BBF /* Controllers */,
+				AD2944A317590C9F00953BBF /* UserContacts.xcdatamodeld */,
+				AD2944B017590DB100953BBF /* MainStoryboard.storyboard */,
+				AD29449217590C9E00953BBF /* Supporting Files */,
+			);
+			path = UserContacts;
+			sourceTree = "<group>";
+		};
+		AD29449217590C9E00953BBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD29449317590C9E00953BBF /* UserContacts-Info.plist */,
+				AD29449417590C9E00953BBF /* InfoPlist.strings */,
+				AD29449717590C9E00953BBF /* main.m */,
+				AD29449917590C9E00953BBF /* UserContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD2944AB17590CA500953BBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD2944B217590EDB00953BBF /* UCHomeViewController.h */,
+				AD2944B317590EDB00953BBF /* UCHomeViewController.m */,
+				AD2944B717593F7800953BBF /* UCContactListViewController.h */,
+				AD2944B817593F7800953BBF /* UCContactListViewController.m */,
+			);
+			name = Controllers;
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		AD2944AC17590CD600953BBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD2944AD17590CDE00953BBF /* Images */,
+			);
+			name = Resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AD2944AD17590CDE00953BBF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD29449D17590C9F00953BBF /* Default.png */,
+				AD29449F17590C9F00953BBF /* Default@2x.png */,
+				AD2944A117590C9F00953BBF /* Default-568h@2x.png */,
+			);
+			name = Images;
+			path = images;
+			sourceTree = "<group>";
+		};
+		AD2944AE17590D4900953BBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD2944BA1759410F00953BBF /* UCContactListTableViewContactCell.h */,
+				AD2944BB1759410F00953BBF /* UCContactListTableViewContactCell.m */,
+			);
+			name = Views;
+			path = views;
+			sourceTree = "<group>";
+		};
+		AD2944AF17590D5800953BBF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AD29449A17590C9F00953BBF /* UCAppDelegate.h */,
+				AD29449B17590C9F00953BBF /* UCAppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = app_delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD29448517590C9E00953BBF /* UserContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2944A817590C9F00953BBF /* Build configuration list for PBXNativeTarget "UserContacts" */;
+			buildPhases = (
+				AF440B0F04AC48C4B5CB5505 /* Check Pods Manifest.lock */,
+				AD29448217590C9E00953BBF /* Sources */,
+				AD29448317590C9E00953BBF /* Frameworks */,
+				AD29448417590C9E00953BBF /* Resources */,
+				6237BB1E83884255B74DE42D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserContacts;
+			productName = UserContacts;
+			productReference = AD29448617590C9E00953BBF /* UserContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD29447E17590C9E00953BBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bradley Griffith";
+			};
+			buildConfigurationList = AD29448117590C9E00953BBF /* Build configuration list for PBXProject "UserContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD29447D17590C9E00953BBF;
+			productRefGroup = AD29448717590C9E00953BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD29448517590C9E00953BBF /* UserContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD29448417590C9E00953BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD29449617590C9E00953BBF /* InfoPlist.strings in Resources */,
+				AD29449E17590C9F00953BBF /* Default.png in Resources */,
+				AD2944A017590C9F00953BBF /* Default@2x.png in Resources */,
+				AD2944A217590C9F00953BBF /* Default-568h@2x.png in Resources */,
+				AD2944B117590DB100953BBF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6237BB1E83884255B74DE42D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		AF440B0F04AC48C4B5CB5505 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD29448217590C9E00953BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD29449817590C9E00953BBF /* main.m in Sources */,
+				AD29449C17590C9F00953BBF /* UCAppDelegate.m in Sources */,
+				AD2944A517590C9F00953BBF /* UserContacts.xcdatamodeld in Sources */,
+				AD2944B417590EDB00953BBF /* UCHomeViewController.m in Sources */,
+				AD2944B917593F7800953BBF /* UCContactListViewController.m in Sources */,
+				AD2944BC1759410F00953BBF /* UCContactListTableViewContactCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD29449417590C9E00953BBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD29449517590C9E00953BBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD2944A617590C9F00953BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD2944A717590C9F00953BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD2944A917590C9F00953BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5D2F3FF8074A278D4A924A /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UserContacts/UserContacts-Prefix.pch";
+				INFOPLIST_FILE = "UserContacts/UserContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD2944AA17590C9F00953BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5D2F3FF8074A278D4A924A /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UserContacts/UserContacts-Prefix.pch";
+				INFOPLIST_FILE = "UserContacts/UserContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD29448117590C9E00953BBF /* Build configuration list for PBXProject "UserContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2944A617590C9F00953BBF /* Debug */,
+				AD2944A717590C9F00953BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2944A817590C9F00953BBF /* Build configuration list for PBXNativeTarget "UserContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2944A917590C9F00953BBF /* Debug */,
+				AD2944AA17590C9F00953BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD2944A317590C9F00953BBF /* UserContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD2944A417590C9F00953BBF /* UserContacts.xcdatamodel */,
+			);
+			currentVersion = AD2944A417590C9F00953BBF /* UserContacts.xcdatamodel */;
+			path = UserContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD29447E17590C9E00953BBF /* Project object */;
+}
